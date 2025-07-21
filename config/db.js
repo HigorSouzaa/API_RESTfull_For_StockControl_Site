@@ -11,7 +11,7 @@ const dbPassword = process.env.DB_PASS;
 
 async function main(){
     await mongoose.connect(
-        `mongodb+srv://${dbUser}:${dbPassword}@api.4dsqfhz.mongodb.net/?retryWrites=true&w=majority&appName=API`
+        `mongodb+srv://${dbUser}:${dbPassword}@api.1hr0gpv.mongodb.net/?retryWrites=true&w=majority&appName=API`
     );
     console.log("Conectou o banco de dados!")
 }
